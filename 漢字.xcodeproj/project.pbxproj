@@ -35,6 +35,7 @@
 		0EB17B4D11142915006D7021 /* 込.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3611142915006D7021 /* 込.png */; };
 		0EB17B4E11142915006D7021 /* 邦.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3711142915006D7021 /* 邦.png */; };
 		0EB17B4F11142915006D7021 /* 阡.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3811142915006D7021 /* 阡.png */; };
+		0EB17B55111433C5006D7021 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B54111433C5006D7021 /* Credits.rtf */; };
 		0EB8706D110F9B510027CB96 /* KJMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EB8706C110F9B510027CB96 /* KJMenu.xib */; };
 		0EB87074110FA0A00027CB96 /* KJLineGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB87073110FA0A00027CB96 /* KJLineGridView.m */; };
 		0EB8707B110FAC5E0027CB96 /* KJRadical.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8707A110FAC5E0027CB96 /* KJRadical.m */; };
@@ -77,6 +78,7 @@
 		0EB17B3611142915006D7021 /* 込.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "込.png"; sourceTree = "<group>"; };
 		0EB17B3711142915006D7021 /* 邦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邦.png"; sourceTree = "<group>"; };
 		0EB17B3811142915006D7021 /* 阡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阡.png"; sourceTree = "<group>"; };
+		0EB17B54111433C5006D7021 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		0EB8706C110F9B510027CB96 /* KJMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KJMenu.xib; sourceTree = "<group>"; };
 		0EB87072110FA0A00027CB96 /* KJLineGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLineGridView.h; sourceTree = "<group>"; };
 		0EB87073110FA0A00027CB96 /* KJLineGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLineGridView.m; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 			children = (
 				8D1107310486CEB800E47090 /* KJ-Info.plist */,
 				0EB17AED111428E8006D7021 /* InfoPlist.strings */,
+				0EB17B54111433C5006D7021 /* Credits.rtf */,
 				0EB8706C110F9B510027CB96 /* KJMenu.xib */,
 				0EB17B2011142915006D7021 /* Dictionaries */,
 				0EB17B2311142915006D7021 /* Radicals */,
@@ -327,6 +330,7 @@
 				0EB17B4D11142915006D7021 /* 込.png in Resources */,
 				0EB17B4E11142915006D7021 /* 邦.png in Resources */,
 				0EB17B4F11142915006D7021 /* 阡.png in Resources */,
+				0EB17B55111433C5006D7021 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
