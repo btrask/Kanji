@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E07645711116E0A00C710DA /* KJFoundationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E07645611116E0A00C710DA /* KJFoundationAdditions.m */; };
+		0E076586111239D200C710DA /* KJKanjiDicDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E076585111239D200C710DA /* KJKanjiDicDictionary.m */; };
+		0E07658911123BB800C710DA /* KJDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E07658811123BB800C710DA /* KJDictionary.m */; };
+		0E07665711125D9B00C710DA /* KJKanjiSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E07665611125D9B00C710DA /* KJKanjiSetController.m */; };
+		0EB17AEF111428E8006D7021 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17AED111428E8006D7021 /* InfoPlist.strings */; };
+		0EB17B3911142915006D7021 /* kanjidic in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2111142915006D7021 /* kanjidic */; };
+		0EB17B3A11142915006D7021 /* radkfile in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2211142915006D7021 /* radkfile */; };
+		0EB17B3B11142915006D7021 /* 个.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2411142915006D7021 /* 个.png */; };
+		0EB17B3C11142915006D7021 /* 刈.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2511142915006D7021 /* 刈.png */; };
+		0EB17B3D11142915006D7021 /* 初.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2611142915006D7021 /* 初.png */; };
+		0EB17B3E11142915006D7021 /* 化.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2711142915006D7021 /* 化.png */; };
+		0EB17B3F11142915006D7021 /* 尚.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2811142915006D7021 /* 尚.png */; };
+		0EB17B4011142915006D7021 /* 并.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2911142915006D7021 /* 并.png */; };
+		0EB17B4111142915006D7021 /* 忙.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2A11142915006D7021 /* 忙.png */; };
+		0EB17B4211142915006D7021 /* 扎.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2B11142915006D7021 /* 扎.png */; };
+		0EB17B4311142915006D7021 /* 杰.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2C11142915006D7021 /* 杰.png */; };
+		0EB17B4411142915006D7021 /* 汁.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2D11142915006D7021 /* 汁.png */; };
+		0EB17B4511142915006D7021 /* 滴.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2E11142915006D7021 /* 滴.png */; };
+		0EB17B4611142915006D7021 /* 犯.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B2F11142915006D7021 /* 犯.png */; };
+		0EB17B4711142915006D7021 /* 疔.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3011142915006D7021 /* 疔.png */; };
+		0EB17B4811142915006D7021 /* 礼.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3111142915006D7021 /* 礼.png */; };
+		0EB17B4911142915006D7021 /* 禹.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3211142915006D7021 /* 禹.png */; };
+		0EB17B4A11142915006D7021 /* 老.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3311142915006D7021 /* 老.png */; };
+		0EB17B4B11142915006D7021 /* 艾.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3411142915006D7021 /* 艾.png */; };
+		0EB17B4C11142915006D7021 /* 買.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3511142915006D7021 /* 買.png */; };
+		0EB17B4D11142915006D7021 /* 込.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3611142915006D7021 /* 込.png */; };
+		0EB17B4E11142915006D7021 /* 邦.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3711142915006D7021 /* 邦.png */; };
+		0EB17B4F11142915006D7021 /* 阡.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB17B3811142915006D7021 /* 阡.png */; };
+		0EB8706D110F9B510027CB96 /* KJMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EB8706C110F9B510027CB96 /* KJMenu.xib */; };
+		0EB87074110FA0A00027CB96 /* KJLineGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB87073110FA0A00027CB96 /* KJLineGridView.m */; };
+		0EB8707B110FAC5E0027CB96 /* KJRadical.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8707A110FAC5E0027CB96 /* KJRadical.m */; };
+		0EB87084110FC6FB0027CB96 /* KJRadKDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB87083110FC6FB0027CB96 /* KJRadKDictionary.m */; };
+		0EB87087110FC8F40027CB96 /* KJWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB87086110FC8F40027CB96 /* KJWindowController.m */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E07645511116E0A00C710DA /* KJFoundationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJFoundationAdditions.h; sourceTree = "<group>"; };
+		0E07645611116E0A00C710DA /* KJFoundationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJFoundationAdditions.m; sourceTree = "<group>"; };
+		0E076584111239D200C710DA /* KJKanjiDicDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJKanjiDicDictionary.h; sourceTree = "<group>"; };
+		0E076585111239D200C710DA /* KJKanjiDicDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJKanjiDicDictionary.m; sourceTree = "<group>"; };
+		0E07658711123BB800C710DA /* KJDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJDictionary.h; sourceTree = "<group>"; };
+		0E07658811123BB800C710DA /* KJDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJDictionary.m; sourceTree = "<group>"; };
+		0E07665511125D9B00C710DA /* KJKanjiSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJKanjiSetController.h; sourceTree = "<group>"; };
+		0E07665611125D9B00C710DA /* KJKanjiSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJKanjiSetController.m; sourceTree = "<group>"; };
+		0EB17AEE111428E8006D7021 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EB17B2111142915006D7021 /* kanjidic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kanjidic; sourceTree = "<group>"; };
+		0EB17B2211142915006D7021 /* radkfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = radkfile; sourceTree = "<group>"; };
+		0EB17B2411142915006D7021 /* 个.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个.png"; sourceTree = "<group>"; };
+		0EB17B2511142915006D7021 /* 刈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "刈.png"; sourceTree = "<group>"; };
+		0EB17B2611142915006D7021 /* 初.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "初.png"; sourceTree = "<group>"; };
+		0EB17B2711142915006D7021 /* 化.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "化.png"; sourceTree = "<group>"; };
+		0EB17B2811142915006D7021 /* 尚.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "尚.png"; sourceTree = "<group>"; };
+		0EB17B2911142915006D7021 /* 并.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "并.png"; sourceTree = "<group>"; };
+		0EB17B2A11142915006D7021 /* 忙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "忙.png"; sourceTree = "<group>"; };
+		0EB17B2B11142915006D7021 /* 扎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扎.png"; sourceTree = "<group>"; };
+		0EB17B2C11142915006D7021 /* 杰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杰.png"; sourceTree = "<group>"; };
+		0EB17B2D11142915006D7021 /* 汁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "汁.png"; sourceTree = "<group>"; };
+		0EB17B2E11142915006D7021 /* 滴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "滴.png"; sourceTree = "<group>"; };
+		0EB17B2F11142915006D7021 /* 犯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "犯.png"; sourceTree = "<group>"; };
+		0EB17B3011142915006D7021 /* 疔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "疔.png"; sourceTree = "<group>"; };
+		0EB17B3111142915006D7021 /* 礼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "礼.png"; sourceTree = "<group>"; };
+		0EB17B3211142915006D7021 /* 禹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "禹.png"; sourceTree = "<group>"; };
+		0EB17B3311142915006D7021 /* 老.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老.png"; sourceTree = "<group>"; };
+		0EB17B3411142915006D7021 /* 艾.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾.png"; sourceTree = "<group>"; };
+		0EB17B3511142915006D7021 /* 買.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "買.png"; sourceTree = "<group>"; };
+		0EB17B3611142915006D7021 /* 込.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "込.png"; sourceTree = "<group>"; };
+		0EB17B3711142915006D7021 /* 邦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邦.png"; sourceTree = "<group>"; };
+		0EB17B3811142915006D7021 /* 阡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阡.png"; sourceTree = "<group>"; };
+		0EB8706C110F9B510027CB96 /* KJMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KJMenu.xib; sourceTree = "<group>"; };
+		0EB87072110FA0A00027CB96 /* KJLineGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLineGridView.h; sourceTree = "<group>"; };
+		0EB87073110FA0A00027CB96 /* KJLineGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLineGridView.m; sourceTree = "<group>"; };
+		0EB87079110FAC5E0027CB96 /* KJRadical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJRadical.h; sourceTree = "<group>"; };
+		0EB8707A110FAC5E0027CB96 /* KJRadical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJRadical.m; sourceTree = "<group>"; };
+		0EB87082110FC6FB0027CB96 /* KJRadKDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJRadKDictionary.h; sourceTree = "<group>"; };
+		0EB87083110FC6FB0027CB96 /* KJRadKDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJRadKDictionary.m; sourceTree = "<group>"; };
+		0EB87085110FC8F40027CB96 /* KJWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJWindowController.h; sourceTree = "<group>"; };
+		0EB87086110FC8F40027CB96 /* KJWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJWindowController.m; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		256AC3F00F4B6AF500CF3369 /* KJ_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJ_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* KJ-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KJ-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* 漢字.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "漢字.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E07658711123BB800C710DA /* KJDictionary.h */,
+				0E07658811123BB800C710DA /* KJDictionary.m */,
+				0EB87082110FC6FB0027CB96 /* KJRadKDictionary.h */,
+				0EB87083110FC6FB0027CB96 /* KJRadKDictionary.m */,
+				0E076584111239D200C710DA /* KJKanjiDicDictionary.h */,
+				0E076585111239D200C710DA /* KJKanjiDicDictionary.m */,
+				0EB87079110FAC5E0027CB96 /* KJRadical.h */,
+				0EB8707A110FAC5E0027CB96 /* KJRadical.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0EB17B2011142915006D7021 /* Dictionaries */ = {
+			isa = PBXGroup;
+			children = (
+				0EB17B2111142915006D7021 /* kanjidic */,
+				0EB17B2211142915006D7021 /* radkfile */,
+			);
+			path = Dictionaries;
+			sourceTree = "<group>";
+		};
+		0EB17B2311142915006D7021 /* Radicals */ = {
+			isa = PBXGroup;
+			children = (
+				0EB17B2411142915006D7021 /* 个.png */,
+				0EB17B2511142915006D7021 /* 刈.png */,
+				0EB17B2611142915006D7021 /* 初.png */,
+				0EB17B2711142915006D7021 /* 化.png */,
+				0EB17B2811142915006D7021 /* 尚.png */,
+				0EB17B2911142915006D7021 /* 并.png */,
+				0EB17B2A11142915006D7021 /* 忙.png */,
+				0EB17B2B11142915006D7021 /* 扎.png */,
+				0EB17B2C11142915006D7021 /* 杰.png */,
+				0EB17B2D11142915006D7021 /* 汁.png */,
+				0EB17B2E11142915006D7021 /* 滴.png */,
+				0EB17B2F11142915006D7021 /* 犯.png */,
+				0EB17B3011142915006D7021 /* 疔.png */,
+				0EB17B3111142915006D7021 /* 礼.png */,
+				0EB17B3211142915006D7021 /* 禹.png */,
+				0EB17B3311142915006D7021 /* 老.png */,
+				0EB17B3411142915006D7021 /* 艾.png */,
+				0EB17B3511142915006D7021 /* 買.png */,
+				0EB17B3611142915006D7021 /* 込.png */,
+				0EB17B3711142915006D7021 /* 邦.png */,
+				0EB17B3811142915006D7021 /* 阡.png */,
+			);
+			path = Radicals;
+			sourceTree = "<group>";
+		};
+		0EB87070110FA0630027CB96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0EB87072110FA0A00027CB96 /* KJLineGridView.h */,
+				0EB87073110FA0A00027CB96 /* KJLineGridView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0EB87071110FA0670027CB96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0EB87085110FC8F40027CB96 /* KJWindowController.h */,
+				0EB87086110FC8F40027CB96 /* KJWindowController.m */,
+				0E07665511125D9B00C710DA /* KJKanjiSetController.h */,
+				0E07665611125D9B00C710DA /* KJKanjiSetController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* 漢字.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* 漢字 */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Models */,
+				0EB87070110FA0630027CB96 /* Views */,
+				0EB87071110FA0670027CB96 /* Controllers */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "漢字";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				256AC3F00F4B6AF500CF3369 /* KJ_Prefix.pch */,
+				0E07645511116E0A00C710DA /* KJFoundationAdditions.h */,
+				0E07645611116E0A00C710DA /* KJFoundationAdditions.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* KJ-Info.plist */,
+				0EB17AED111428E8006D7021 /* InfoPlist.strings */,
+				0EB8706C110F9B510027CB96 /* KJMenu.xib */,
+				0EB17B2011142915006D7021 /* Dictionaries */,
+				0EB17B2311142915006D7021 /* Radicals */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* 漢字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "漢字" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "漢字";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "漢字";
+			productReference = 8D1107320486CEB800E47090 /* 漢字.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "漢字" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* 漢字 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* 漢字 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB8706D110F9B510027CB96 /* KJMenu.xib in Resources */,
+				0EB17AEF111428E8006D7021 /* InfoPlist.strings in Resources */,
+				0EB17B3911142915006D7021 /* kanjidic in Resources */,
+				0EB17B3A11142915006D7021 /* radkfile in Resources */,
+				0EB17B3B11142915006D7021 /* 个.png in Resources */,
+				0EB17B3C11142915006D7021 /* 刈.png in Resources */,
+				0EB17B3D11142915006D7021 /* 初.png in Resources */,
+				0EB17B3E11142915006D7021 /* 化.png in Resources */,
+				0EB17B3F11142915006D7021 /* 尚.png in Resources */,
+				0EB17B4011142915006D7021 /* 并.png in Resources */,
+				0EB17B4111142915006D7021 /* 忙.png in Resources */,
+				0EB17B4211142915006D7021 /* 扎.png in Resources */,
+				0EB17B4311142915006D7021 /* 杰.png in Resources */,
+				0EB17B4411142915006D7021 /* 汁.png in Resources */,
+				0EB17B4511142915006D7021 /* 滴.png in Resources */,
+				0EB17B4611142915006D7021 /* 犯.png in Resources */,
+				0EB17B4711142915006D7021 /* 疔.png in Resources */,
+				0EB17B4811142915006D7021 /* 礼.png in Resources */,
+				0EB17B4911142915006D7021 /* 禹.png in Resources */,
+				0EB17B4A11142915006D7021 /* 老.png in Resources */,
+				0EB17B4B11142915006D7021 /* 艾.png in Resources */,
+				0EB17B4C11142915006D7021 /* 買.png in Resources */,
+				0EB17B4D11142915006D7021 /* 込.png in Resources */,
+				0EB17B4E11142915006D7021 /* 邦.png in Resources */,
+				0EB17B4F11142915006D7021 /* 阡.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				0EB87074110FA0A00027CB96 /* KJLineGridView.m in Sources */,
+				0EB8707B110FAC5E0027CB96 /* KJRadical.m in Sources */,
+				0EB87084110FC6FB0027CB96 /* KJRadKDictionary.m in Sources */,
+				0EB87087110FC8F40027CB96 /* KJWindowController.m in Sources */,
+				0E07645711116E0A00C710DA /* KJFoundationAdditions.m in Sources */,
+				0E076586111239D200C710DA /* KJKanjiDicDictionary.m in Sources */,
+				0E07658911123BB800C710DA /* KJDictionary.m in Sources */,
+				0E07665711125D9B00C710DA /* KJKanjiSetController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EB17AED111428E8006D7021 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB17AEE111428E8006D7021 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KJ_Prefix.pch;
+				INFOPLIST_FILE = "KJ-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "漢字";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KJ_Prefix.pch;
+				INFOPLIST_FILE = "KJ-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "漢字";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "漢字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "漢字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

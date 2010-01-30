@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.BenTrask.${PRODUCT_NAME}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>NSMainNibFile</key>
+	<string>KJMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>KJDictionaries</key>
+	<array>
+		<dict>
+			<key>KJDictionaryName</key>
+			<string>radkfile</string>
+			<key>KJDictionaryClass</key>
+			<string>KJRadKDictionary</string>
+			<key>KJDictionaryResourceName</key>
+			<string>radkfile</string>
+			<key>KJDictionaryEncoding</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>KJDictionaryName</key>
+			<string>kanjidic</string>
+			<key>KJDictionaryClass</key>
+			<string>KJKanjiDicDictionary</string>
+			<key>KJDictionaryResourceName</key>
+			<string>kanjidic</string>
+			<key>KJDictionaryEncoding</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
