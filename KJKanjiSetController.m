@@ -88,7 +88,7 @@ static NSComparisonResult KJSortKanjiStringsByGrade(NSString *a, NSString *b, KJ
 {
 	static NSMutableParagraphStyle *paragraphStyle;
 	if(!paragraphStyle) {
-		paragraphStyle = [[[NSParagraphStyle defaultParagraphStyle] mutableCopy] autorelease];
+		paragraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
 		[paragraphStyle setAlignment:NSCenterTextAlignment];
 	}
 	NSNumber *const strokeCount = [_strokeCounts objectAtIndex:position.line];
